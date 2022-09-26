@@ -1,3 +1,3 @@
 # test-two
 
-## Adding first commit ff gg hhh branch ggg ggggggg
+## Adding first commit ff gg hhh branch ggg ggg
