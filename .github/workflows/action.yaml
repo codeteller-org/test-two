@@ -1,0 +1,19 @@
+#Name of entire workflow
+name: Shell Commands
+
+#After name we define events which will trigger the workflow
+
+on: [push] # it can be array of events
+
+#Git hosted runner
+jobs: 
+    run-shell-command:
+      runs-on: ubuntu-latest
+      #put example of self hosted for explaining the case of VM runner
+      steps:
+        - name: echo a string
+          run: echo "Testing an echo command"
+        - name: multiline script
+          run: |
+            node -v
+            npm -v
