@@ -9,4 +9,4 @@
 bye
 hi baby baby
 
-Hello! hi! bye! hello! hi
+Hello! hi! bye! hello! hi check!
